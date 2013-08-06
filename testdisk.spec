@@ -1,11 +1,11 @@
 Summary:	Tool to check and undelete partition
 Name:		testdisk
 Version:	6.14
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Applications/System
-Source0:	http://www.cgsecurity.org/%{name}-%{version}-WIP.tar.bz2
-# Source0-md5:	8acf98e25d445372ae338c31a3ebd0b9
+Source0:	http://www.cgsecurity.org/%{name}-%{version}.tar.bz2
+# Source0-md5:	b1f0edabc9035e9ec9c8e0a95059ff3f
 URL:		http://www.cgsecurity.org/testdisk.html
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -35,7 +35,7 @@ partitions:
 - XFS
 
 %prep
-%setup -qn %{name}-%{version}-WIP
+%setup -q
 
 %build
 %{__aclocal}
