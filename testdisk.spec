@@ -1,7 +1,7 @@
 Summary:	Tool to check and undelete partition
 Name:		testdisk
 Version:	6.14
-Release:	2
+Release:	3
 License:	GPL v2
 Group:		Applications/System
 Source0:	http://www.cgsecurity.org/%{name}-%{version}.tar.bz2
